@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <div class="background">
+        <img src="../static/images/netflix_bg_img.png" alt="" class="bg">
+        <img src="../static/images/netflix_pic.PNG" alt="" class="logo" height="190px">
+    <form action="" method="post">
+            <select name="" id="" class="select">
+                <option value="English">English</option>
+                <option value="Hindi">Hindi</option>
+            </select>
+        <a href="{{url_for('login')}}" class="signin">Login</a>
+            
+        <div class="signupup">
+            <h1>Sign Up</h1>
+            <input type="text" name="username" placeholder="Username" class="signname"><br>
+            <input type="text" name="dob" placeholder="Date of Birth" class="signdob"><br>
+            <input type="email" name="email" placeholder="Email address" class="signemail"><br>
+            <input type="text" name="password" placeholder="Password" class="signpass"><br>
+            <button type="submit" class="signbtn">Sign In</button>
+    </form>
+            <p>This page is protected by Google reCAPTCHA to <br>
+            ensure you're not a bot. <a href="#">Learn more</a></p>
+        </div>
+    
+</body>
+</html>

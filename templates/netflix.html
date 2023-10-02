@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <script src="https://kit.fontawesome.com/8b134085b2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="finaldiv">
+    <video autoplay loop plays-inline src="../static/videos/Kaithi - Official Trailer ｜ Karthi ｜ Lokesh Kanagaraj ｜ Sam CS ｜ S R Prabhu ｜ 4K [g79CvhHaj5I].mp4"></video>
+    <header class="netflixheader">
+        <img  class="headerimage" src="../static/images/BD6781DE-528E-4DD1-A51B-E11530EE527D-removebg-preview (1).png" alt="" height="180px">
+        
+        <nav>
+            <a href="#" class="anchors">Home</a>
+            <a href="#" class="anchors1">TV Shows</a>
+            <a href="#" class="anchors2">Movies</a>
+            <a href="#" class="anchors3">New & Popular</a>
+            <a href="#" class="anchors4">My List</a>
+            <a href="#" class="anchors5">Browse by Languages</a>
+        </nav>
+
+        <div class="sidebar">
+            <a href="{{url_for('search')}}" class="glass"><i class="fa-solid fa-magnifying-glass" style="color: white;"></i></a>
+            <p class="children">Children</p>
+            <a href="#" class="mani"><i class="fa-regular fa-bell" style="color: white;"></i></a>
+            <a href="{{url_for('watch')}}" class="jef"><img src="../static/images/AK.jpg" alt="" height="40px" width="40px"></a>
+        </div>
+    </header>
+
+    <div class="inimage">
+        <img class="inlineimage" src="../static/images/N.PNG" alt="" height="50px" width="70px">
+        <p>SERIES</p>
+        <img class="jawan" src="../static/images/kaithi2-removebg-preview.png" alt="" height="365px" width="550px">
+    </div>
+
+    <div class="play">
+        <a href="#" class="inplay"><i class="fa-solid fa-play" style="color: black;"></i></a>
+        <p>Play</p>
+    </div>
+
+    <div class="moreinfo">
+        <a href="#" class="moremore"><i class="fa-solid fa-circle-info" style="color: black;"></i></a>
+        <p>More info</p>
+    </div>
+
+    <div class="trendingnow">
+        <p>Trending Now</p>
+    </div>
+
+    <div class="moviesrow">
+        <a href="#"><img src="../static/images/doctor-strange-multiverse-of-madness-poster-mcu-marvel-disney.webp" alt="" height="150px" width="250px"></a>
+        <a href="#"><img src="../static/images/fury-cinema-quad-movie-poster-(1).jpg" alt="" height="150px" width="250px"></a>
+        <a href="#"><img src="../static/images/Thalapathy-Vijay-LEO-Movie-First-Look-Poster-HD.webp" alt="" height="150px" width="250px"></a>
+        <a href="#"><img src="../static/images/petta.jpg" alt="" height="150px" width="250px"></a>
+        <a href="#"><img src="../static/images/wp5934282-raees-movie-wallpapers.jpg" alt="" height="150px" width="250px"></a>
+
+    </div>
+
+    <div class="trendingnow1">
+        <p>Continue watching for Arun</p>
+    </div>
+    
+    <div class="moviesrow2">
+        {%for i in box%}
+        <a href="{{url_for('movies', var=i.videourl)}}"><img src="{{i.thumburl}}" alt="" height="150px" width="250px"></a>
+        {%endfor%}
+        <a href="#"><img src="../static/images/dark_knight_rises_ver10_xlg.jpg" alt="" height="150px" width="250px"></a>
+        <a href="#"><img src="../static/images/pxfuel.jpg" alt="" height="150px" width="250px"></a>
+        <a href="#"><img src="../static/images/starwar.jpeg" alt="" height="150px" width="250px"></a>
+        <a href="#"><img src="../static/images/Master-Movie-Release-Posters-HD-05e1ab1.jpg" alt="" height="150px" width="250px"></a>
+
+    </div>
+
+
+    <div class="trendingnow1">
+        <p>Made in India</p>
+    </div>
+
+    <div class="moviesrow1">
+        <a href="#"><img src="../static/images/wallpaperbetter.com_3840x2160.jpg" alt="" height="150px" width="250px"></a>
+        <a href="#"><img src="../static/images/wallpaperbetter.com_3840x2160 (1).jpg" alt="" height="150px" width="250px"></a>
+        <a href="#"><img src="../static/images/KGF.jpeg" alt="" height="150px" width="250px"></a>
+        <a href="#"><img src="../static/images/Jagame-Thandhiram-teaser-scaled.jpg" alt="" height="150px" width="250px"></a>
+        <a href="#"><img src="../static/images/premam.jpg" alt="" height="150px" width="250px"></a>
+
+    </div>
+
+    <div class="trendingnow1">
+        <p>Because you watched Johnwick</p>
+    </div>
+
+    <div class="moviesrow1">
+        <a href="#"><img src="../static/images/got.jpg" alt="" height="150px" width="250px"></a>
+        <a href="#"><img src="../static/images/MECHANIC-RESURRECTION_L.png" alt="" height="150px" width="250px"></a>
+        <a href="#"><img src="../static/images/fast-x-2023-movies-8k-5k-3840x2160-11504.jpg" alt="" height="150px" width="250px"></a>
+        <a href="#"><img src="../static/images/stranger things.jpg" alt="" height="150px" width="250px"></a>
+        <a href="#"><img src="../static/images/iron man.jpeg" alt="" height="150px" width="250px"></a>
+
+    </div>
+
+    <!-- <div class="trendingnow1">
+        <p>Sci-Fi & Fantasy Movies</p>
+    </div>
+
+    <div class="moviesrow1">
+        <a href="#"><img src="../static/images/maamannan.jpg" alt="" height="180px" width="300px"></a>
+        <a href="#"><img src="../static/images/maamannan.jpg" alt="" height="180px" width="300px"></a>
+        <a href="#"><img src="../static/images/maamannan.jpg" alt="" height="180px" width="300px"></a>
+        <a href="#"><img src="../static/images/maamannan.jpg" alt="" height="180px" width="300px"></a>
+        <a href="#"><img src="../static/images/maamannan.jpg" alt="" height="180px" width="300px"></a>
+
+    </div> -->
+
+    <!-- <div class="trendingnow1">
+        <p>Watch It Again</p>
+    </div>
+
+    <div class="moviesrow1">
+        <a href="#"><img src="../static/images/maamannan.jpg" alt="" height="180px" width="300px"></a>
+        <a href="#"><img src="../static/images/maamannan.jpg" alt="" height="180px" width="300px"></a>
+        <a href="#"><img src="../static/images/maamannan.jpg" alt="" height="180px" width="300px"></a>
+        <a href="#"><img src="../static/images/maamannan.jpg" alt="" height="180px" width="300px"></a>
+        <a href="#"><img src="../static/images/maamannan.jpg" alt="" height="180px" width="300px"></a>
+
+    </div> -->
+</div>
+</body>
+</html>

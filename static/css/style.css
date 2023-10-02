@@ -1,0 +1,728 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.col_1 {
+    width: 8.33%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_2 {
+    width: 16.66%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_3 {
+    width: 25%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_4 {
+    width: 33.33%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_5 {
+    width: 41.66%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_6 {
+    width: 50%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_7 {
+    width: 58.33%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_8 {
+    width: 66.66%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_9 {
+    width: 75%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_10 {
+    width: 83.33%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_11 {
+    width: 91.66%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_12 {
+    width: 100%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+
+/* login page starts here  */
+
+/* body{
+    background-color: black;
+} */
+
+
+.bg{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    filter: brightness(35%);
+}
+
+.logo{
+    position: absolute;
+    top: 0%;
+    left: 10%;
+}
+
+.select{
+    position: absolute;
+    top: 9%;
+    left: 72%;
+    padding: 10px 35px;
+    font-size: 18px;
+    background-color: transparent;
+    color: white;
+}
+
+.signin{
+    position: absolute;
+    top: 9%;
+    left: 82%;
+    font-size: 18px;
+    text-decoration-line: none;
+    padding: 10.5px 17px;
+    color: white;
+    background-color: red;
+}
+
+.content{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.content0{
+    position: absolute;
+    top: 39%;
+    left: 26%;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.content1{
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    font-size: 25px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.content2{
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    font-size: 25px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.email{
+    position: absolute;
+    top: 62%;
+    left: 32%;
+    font-size: 20px;
+    padding: 15px 80px; 
+    border-radius: 5px;
+}
+
+.passwordd{
+    font-size: 20px;
+    padding: 15px 80px;
+    margin-top: 20px;
+    position: absolute;
+    top: 68%;
+    left: 32%;
+}
+
+.btn{
+    position: absolute;
+    top: 66.5%;
+    left:61%;
+    font-size: 20px;
+    padding: 15px 40px; 
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+}
+
+/* password page starts here  */
+
+.passwordheader{
+    margin-top: 75px;
+}
+
+.passin{
+    text-decoration-line: none;
+    color: black;
+    margin-left: 1500px;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+hr{
+    margin-top: 40px;
+}
+
+.important{
+    width: 30%;
+    margin-left: 36%;
+    margin-top: 40px;
+    flex-direction: column;
+}
+
+.r{
+    margin-top: 10px;
+}
+
+.e{
+    font-size: 23px;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ee{
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+.jinja{
+    font-size: 23px;
+}
+
+/* .passwordd{
+    font-size: 22px;
+    padding: 15px 80px;
+    margin-top: 20px;
+} */
+
+.forgot{
+    text-decoration-line: none;
+    font-size: 22px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.forgot:hover{
+    color: red;
+}
+
+.submit{
+    font-size: 20px;
+    padding: 15px 192px;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+}
+
+
+/* who's watching page starts here */
+
+.watchbody{
+    background-color: black;
+}
+
+.watching{
+    color: white;
+    margin-top: 200px;
+    margin-left: 660px;
+    letter-spacing: 2px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.watchimages{
+    margin-left: 330px;
+    margin-top: 20px;
+    display: flex;
+    width: 1100px;
+    height: 196px;
+    justify-content: space-between;
+    /* border: 2px solid white; */
+}
+
+.watchimages1{
+    border-radius: 10px;
+}
+
+.watchimages1:hover , .watchimages i:hover{
+    border: 4px solid white;
+    
+}
+
+.watchimages img, .watchimages a{
+    font-size: 100px;
+    /* border: 2px solid white; */
+    border-radius: 10px;
+    /* transition: scale 10s; */
+}
+
+.watchimages i{
+    padding: 40px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+
+
+.watchimages img:hover{
+    border: 4px solid lightgray;
+    /* transform: scale(2) */
+}
+
+.profilename{
+    display: flex;
+    margin-left: 260px;
+    margin-top: 15px;
+}
+
+.profilename p{
+    color: white;
+    margin-left: 100px;
+    font-size: 22px;
+}
+
+.manageprofile p{
+    font-size: 20px;
+    color: white;
+    margin-top: 130px;
+    margin-left: 790px;
+    border: 2px solid white;
+    padding: 10px;
+    width: fit-content;
+}
+
+.manageprofile p:hover{
+    background-color: gray;
+    color: black;
+}
+
+
+/* netflix page starts here  */
+video{
+    position: relative;
+    width: 100%;
+    object-fit: fill;
+    height: 900px;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+}
+
+
+.netflixheader{
+    background-color: black;
+    height: 94px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    top: 0%;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+}
+
+
+.headerimage{
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+
+nav a{
+    text-decoration-line: none;
+    font-size: 17px;
+    color: white;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+
+.glass{
+    color: white;
+    font-size: 24px;
+    margin-left: 350px;
+    margin-top: 13px;
+}
+
+.children{
+    color: white;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.mani{
+    color: white;
+    font-size: 24px;
+    margin-left: 20px;
+    margin-top: 13px;
+}
+
+.jef{
+    color: white;
+    font-size: 24px;
+    margin-left: 20px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.sidebar{
+    display: flex;
+    margin-left: 80px;
+}
+
+
+
+/* video image section starts  here  */
+
+
+.inlineimage{
+    position: absolute;
+    top: 46%;
+    left: 2.6%;
+}
+
+.inimage p{
+    position: absolute;
+    top: 49.5%;
+    left: 6%;
+    font-size: 20px;
+    color: lightgray;
+    font-weight: 500;
+    letter-spacing: 8px;
+}
+
+.jawan{
+    position: absolute;
+    top: 34.5%;
+    right:69%;
+}
+
+.inplay{
+    position: absolute;
+    top: 70%;
+    left: 4%;
+    font-size: 30px;
+    border: 2px solid white;
+    height: 45px;
+    width: 130px;
+    padding-left: 23px;
+    padding-top: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: white;
+}
+
+.play p{
+    position: absolute;
+    top: 71.1%;
+    left: 7.4%;
+    font-size: 25px;
+}
+
+.moremore{
+    position: absolute;
+    top: 70%;
+    left: 13%;
+    font-size: 30px;
+    border: 2px solid lightgray;
+    height: 45px;
+    width: 170px;
+    padding-left: 12px;
+    padding-top: 5px;
+    border-radius: 10px;
+    color: lightgrey;
+    background-color: lightgray;
+}
+
+.moreinfo p{
+    position: absolute;
+    top: 71.1%;
+    left: 15.9%;
+    font-size: 25px;
+}
+
+
+
+/* signup section starts here  */
+.signupup h1{
+    position: absolute;
+    top: 23%;
+    left: 33%;
+    font-size: 24px;
+    color: white;
+    font-weight: 500;
+    border: 2px solid white;
+    height: 550px;
+    width: 500px;
+    padding-left: 67px;
+    padding-top: 50px;
+}
+.signupup p{
+    position: absolute;
+    top: 81%;
+    left: 37%;
+    color: white;
+}
+
+.signupup  a{
+    text-decoration-line: none;
+    color: red;
+}
+
+
+.signname{
+    position: absolute;
+    top: 36%;
+    left: 37%;
+    padding: 12px 50px;
+    font-size: 22px;
+    border: 2px solid white;
+}
+
+.signdob{
+    position: absolute;
+    top: 45%;
+    left: 37%;
+    padding: 12px 50px;
+    font-size: 22px;
+    border: 2px solid white;
+}
+
+.signemail{
+    position: absolute;
+    top: 54%;
+    left: 37%;
+    padding: 12px 50px;
+    font-size: 22px;
+    border: 2px solid white;
+}
+
+.signpass{
+    position: absolute;
+    top: 63%;
+    left: 37%;
+    padding: 12px 50px;
+    font-size: 22px;
+    border: 2px solid white;
+}
+
+.signbtn{
+    position: absolute;
+    top: 72%;
+    left: 43%;
+    padding: 7px 30px;
+    font-size: 22px;
+    border: 2px solid white;
+}
+
+
+
+/* movies row starts here  */
+
+.trendingnow p{ 
+    position: absolute;
+    top: 95.9%;
+    left: 2%;
+    font-size: 20px;
+    font-weight: 550;
+    color: white;
+}
+
+.moviesrow{
+    display: flex;
+    height: 200px;
+    width: 99%;
+    position: absolute;
+    top: 105%;
+    margin-left: 15px;
+    justify-content: space-evenly;
+}
+
+.trendingnow1 p{ 
+    /* position: absolute;
+    top: 85%;
+    left: 4%; */
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.moviesrow1{
+    display: flex;
+    /* height: 200px; */
+    width: 99%;
+    margin-left: 15px;
+    margin-top: 15px;
+    justify-content: space-evenly;
+}
+.moviesrow2{
+    display: flex;
+    /* height: 200px; */
+    width: 95%;
+    margin-left: 50px;
+    margin-top: 15px;
+    justify-content: space-between;
+    gap: 20px;
+    overflow: scroll;
+}
+.moviesrow2::-webkit-scrollbar{
+    display: none;
+}
+.finaldiv{
+    background-color: black;
+}
+
+
+
+/* pin page starts here */
+
+.netflixvideo{
+    object-fit: fill;
+    filter: brightness(50%);
+    position: relative;
+}
+
+.enterpin{
+    position: absolute;
+    top: 33%;
+    border: 2px solid white;
+    height: 250px;
+    width: 420px;
+    left: 38%;
+}
+
+.enterpin .tocontinue{
+    color: white;
+    margin-left: 90px;
+    font-size: 21px;
+    margin-top: 10px;
+}
+
+.enterpin .wel{
+    color: white;
+    margin-left: 130px;
+    margin-top: 20px;
+}
+
+.enterpin .pin{
+    padding: 15px 25px;
+    border-radius: 20px;
+    margin-left: 80px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.enterpin .submitpin{
+    padding: 7px 15px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 170px;
+}
+
+
+
+
+/* search or upload page starts here  */
+
+.backgroundsearch img{
+    position: relative;
+    filter: blur(3px);
+}
+
+.uploadnetflix{
+    position: absolute;
+    top: 28%;
+    border: 2px solid white;
+    height: 300px;
+    width: 420px;
+    left: 38%;
+}
+
+.uploadnetflix h1{
+    color: white;
+    text-shadow: 3px 3px 5px black;
+    margin-top: 20px;
+    margin-left: 65px;
+}
+
+.uploadnetflix input{
+    padding: 10px 25px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.uploadnetflix .upload{
+    padding: 7px 15px;
+    font-size: 19px;
+    margin-left: 160px;
+    margin-top: 25px;
+}
+
+
+
